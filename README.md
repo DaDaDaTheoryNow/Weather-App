@@ -1,16 +1,20 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+A Weather App - Works on All Devices! 
 
-## Getting Started
+## Features
+- Country selection
+- Weather with minimal delay
+- Intuitive interface
 
-This project is a starting point for a Flutter application.
+## Installation
+After cloning this repository, migrate to ```weather-app``` folder. Then, follow the following steps:
+- Create Android & iOS Emulator/Simulator
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Device support
+- All
