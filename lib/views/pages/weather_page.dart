@@ -144,10 +144,9 @@ class _WeatherListPageState extends State<WeatherListPage> {
                         // api calls counter
                         SafeArea(
                           child: Padding(
-                            padding: EdgeInsets.only(
-                                top: MediaQuery.of(context).size.height * 0.3),
+                            padding: const EdgeInsets.only(top: 10),
                             child: Text(
-                              "Call api: $getApiCalls / 2000",
+                              "Api calls: $getApiCalls / 2000",
                               style: const TextStyle(
                                 fontSize: 8,
                                 fontStyle: FontStyle.italic,
